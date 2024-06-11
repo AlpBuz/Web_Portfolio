@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+html body {
+    margin: 0;
+    padding: 0;
+}
+
+.header-Me{
+    margin: 0;
+}
+
+.header-Me{
+    color: aliceblue;
+}
+
+header nav{
+    text-align: right;
+}
+
+nav ul{
+    margin: 0;
+}
+
+nav li{
+    display: inline;
+}
+
+nav a {
+    padding: 3%;
+    color: white;
+    text-decoration: none;
+    
+}
+
+.main-header {
+    background-color: black;
+}
+
+
