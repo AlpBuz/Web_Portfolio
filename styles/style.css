@@ -10,6 +10,7 @@
 
 
 body {
+    position: static;
     background-color: #081b29;
     color: white;
 }
@@ -77,16 +78,39 @@ body {
 
 
 .home{
-    
     position: relative;
     top: 63.2px;
     height: 100vh;
-    max-height: 100vh;
     display: flex;
     align-items: center;
+    padding: 0 10%;
 }
 
 .home-details{
-    background-color: yellowgreen;
-    padding: 0 10px;
+    position: relative;
+    bottom: 100px;
+    max-width: 600px;
+    
+}
+
+
+.home-header{
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.home-header span{
+    color: #00abf0;
+}
+
+
+.home-details p {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.about-button {
+    margin-bottom: 30px;
 }
