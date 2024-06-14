@@ -8,6 +8,10 @@
     position: relative;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 
 body {
     position: static;
@@ -39,6 +43,7 @@ body {
     font-size: 1.2em; /* Font size */
     font-weight: bold; /* Bold text */
     padding: 0 10px;
+    margin-left: 20px;
 }
 
 
@@ -78,18 +83,21 @@ body {
 
 
 .home{
+    padding-top: 100px;
     position: relative;
     top: 63.2px;
     height: 100vh;
     display: flex;
     align-items: center;
     padding: 0 10%;
+    margin-bottom: 60px;
 }
 
 .home-details{
     position: relative;
     bottom: 100px;
     max-width: 600px;
+    margin-top: 40px;
     
 }
 
@@ -112,5 +120,70 @@ body {
 }
 
 .about-button {
+    cursor: pointer;
     margin-bottom: 30px;
+    margin-left: 30px;
+    padding: 20px;
+    text-align: center;
+    background: transparent;
+    border-color: #00abf0;
+    color: #00abf0;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    transition: 0.4s;
+}
+
+.about-button span{
+    cursor: pointer;
+}
+
+.about-button:hover{
+    cursor: pointer;
+    background-color: #00abf0;
+    color: white;
+}
+
+
+
+.resume-button{
+    margin-left: 200px;
+}
+
+.website-links{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+
+.website-links li{
+    position: relative;
+    list-style: none;
+}
+
+.website-links a{
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underline */
+    padding: 5px 34px; /* Padding for clickable area */
+    font-size: 20px;
+    font-weight: 500;
+    transition: 0.4s;
+}
+
+.home-pic{
+    position: relative;
+    left: 100;
+    bottom: 90;
+}
+
+
+/*---------------about section ------------------------*/
+
+
+.about-me{
+    background-color: #073452;
+    padding: 5px 34px;
+    margin: 10px;
 }

@@ -9,14 +9,14 @@
 </head>
 
 <body>
-    <header class="main-header">
+    <header class="main-header" id="main-header">
             <span class="header-Me">Alp B.</span>
             <ul class="nav-list">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="">Education/Skills</a></li>
-                <li><a href="experience.html">Experience</a></li>
-                <li><a href="projects.html">Projects</a></li>
+                <li><a onClick="document.getElementById('home').scrollIntoView();">Home</a></li>
+                <li><a onClick="document.getElementById('about-me').scrollIntoView();">About</a></li>
+                <li><a onClick="document.getElementById('').scrollIntoView();">Education/Skills</a></li>
+                <li><a onClick="document.getElementById('work-experience-section').scrollIntoView();">Experience</a></li>
+                <li><a onClick="document.getElementById('projects').scrollIntoView();">Projects</a></li>
             </ul>
     </header>
 
@@ -28,17 +28,19 @@
 
 
      
-    <section class="home">
+    <section class="home" id="home">
         <div class="home-details">
             <h1 class="home-header">Hi There,</h1>
             <h1 class="home-header">I'm <span>Alp Buz</span></h1>
             <p>
-                I am a computer science student I am seeking an internship where I can apply my coding skills, 
+                I am a computer science student and I am seeking an internship where I can apply my coding skills, 
                 learn from industry professionals, and contribute to impactful projects.
             </p>
-            <div class="about">
-                <button class="about-button" type="button"><span>About Me</span></button>
+            <div class="about-resume-buttons">
+                <button class="about-button" type="button" onClick="document.getElementById('about-me').scrollIntoView();"><span>About Me</span></button>
+                <a class="resume-button" href="path_to_file" download="proposed_file_name">Resume</a>
             </div>
+
             <div>
                 <ul class="website-links">
                     <li><a href="https://www.linkedin.com/in/alp-buz-2913042b0/" target="_blank">LinkedIn</a></li>
@@ -46,8 +48,12 @@
                     <li><a href="https://x.com/ThermalJaguar" target="_blank">X.com</a></li>
                 </ul>
             </div>
-
         </div>
+
+        <div>
+            <img class="home-pic" src="images/Giraffe.jpg" alt="Profile Picture">
+        </div>
+        
     </section>
 
 
@@ -95,7 +101,7 @@
     <hr>
     
 
-    <section>
+    <section class="work-experience-section" id="work-experience-section">
         <h1>Experience</h1>
         <div class="work-experience">
           <div class="company-details">
