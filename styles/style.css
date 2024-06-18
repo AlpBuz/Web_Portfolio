@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    position: relative;
+    
 }
 
 html {
@@ -122,8 +122,9 @@ body {
 .about-button {
     cursor: pointer;
     margin-bottom: 30px;
-    margin-left: 30px;
-    padding: 20px;
+    width: 100px;
+    height: 50px;
+    justify-content: center;
     text-align: center;
     background: transparent;
     border-color: #00abf0;
@@ -148,34 +149,75 @@ body {
 
 .resume-button{
     margin-left: 200px;
-}
-
-.website-links{
-    position: relative;
-    display: flex;
+    text-decoration: none;
+    width: 100px;
+    display: inline-flex;
     justify-content: center;
+    height: 50px;
     align-items: center;
-    width: 60%;
-}
-
-.website-links li{
-    position: relative;
-    list-style: none;
-}
-
-.website-links a{
-    color: white; /* Text color */
-    text-decoration: none; /* Remove underline */
-    padding: 5px 34px; /* Padding for clickable area */
-    font-size: 20px;
-    font-weight: 500;
+    border: 2px solid #00abf0;
+    color:#00abf0;
+    border-radius: 10px;
     transition: 0.4s;
 }
 
+.resume-button:hover{
+    color: white;
+    background-color: #00abf0;
+
+}
+
+.website-links{
+    position: sticky;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 10;
+}
+
+.website-links a{
+    background: transparent;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #00abf0;
+    border-radius: 50%;
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    text-decoration: none;
+    transition: 0.4s;
+    color: #00abf0;
+}
+
+.website-links a:hover{
+    background-color: #00abf0;
+    color: white;
+    transition: 0.4s;
+}
+
+.website-links a:hover i{
+    color: white;
+}
+
+.website-links a i:hover{
+    color: white;
+}
+
+.website-links a:visited{
+    color: #00abf0;
+    text-decoration: none;
+}
+
+
+
 .home-pic{
     position: relative;
-    left: 100;
+    left: 100px;
     bottom: 90;
+    width: 70vh;
+    height: 80vh;
 }
 
 
