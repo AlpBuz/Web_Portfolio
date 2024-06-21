@@ -15,7 +15,7 @@
             <span class="header-Me">Alp B.</span>
             <ul class="nav-list">
                 <li><a onClick="document.getElementById('home').scrollIntoView();">Home</a></li>
-                <li><a onClick="document.getElementById('about-me').scrollIntoView();">About</a></li>
+                <li><a onClick="document.getElementById('about-me-section').scrollIntoView();">About</a></li>
                 <li><a onClick="document.getElementById('education').scrollIntoView();">Education/Skills</a></li>
                 <li><a onClick="document.getElementById('work-experience-section').scrollIntoView();">Experience</a></li>
                 <li><a onClick="document.getElementById('projects').scrollIntoView();">Projects</a></li>
@@ -51,38 +51,36 @@
         </div>
 
         <div>
-            <img class="home-pic" src="images/Giraffe.jpg" alt="Profile Picture">
+            <img class="home-pic" src="assets/images/Giraffe.jpg" alt="Profile Picture">
         </div>
         
     </section>
 
 
-
-
-
-
-
-
-
     
-    <hr>
+    <section id="about-me-section" class="about-me-section">
 
-    <section id="about-me" class="about-me">
         <h2 id="about-header" class="about-header">About Me</h2>
-        <p class="about-description">
-            Hi, I’m Alp Buz, a fourth-year student at the University at Buffalo, pursuing a Bachelor's degree in Computer Science. 
-            Upon graduation, I plan to continue my studies and obtain a Master’s degree as well. I am currently seeking internship opportunities 
-            to kick-start my career in software engineering or web development. I have a solid foundation in several programming languages and technologies, including 
-            Python, React, HTML, MySQL, JavaScript, and PHP. Throughout my academic career, I have created numerous projects using these skills. 
-            These projects have been instrumental in developing my technical proficiency and problem-solving abilities. For more information about 
-            my projects, please visit the <a href="projects.html">projects page</a>. In addition to my academic pursuits, I have gained valuable work 
-            experience at Stop & Shop, where I worked as a cashier and produce clerk. I also have hands-on experience working in my family's mechanic 
-            shop alongside my father, which has equipped me with practical skills and a strong work ethic. Beyond work and studies, I have been playing 
-            the guitar since I was 10 years old, which remains a cherished hobby of mine. If you’d like to connect to offer an internship position or 
-            to learn more about me, feel free to <a href="contact.html">reach out to me</a> or visit my 
-            <a href="https://www.linkedin.com/in/alp-buz-2913042b0/" target="_blank">LinkedIn</a> profile.
-        </p>
-        <img class="about-profile-pic" src="images/Giraffe.jpg" alt="Profile Picture">
+        <div id="about-description-box" class="about-description-box">
+            <h2>I'm Alp</h2>
+            <p class="about-description">
+                A fourth-year student at the University at Buffalo, pursuing a Bachelor's degree in Computer Science. 
+                Upon graduation, I plan to continue my studies and obtain a Master’s degree as well. I am currently seeking internship opportunities 
+                to kick-start my career in software engineering or web development. I have a solid foundation in several programming languages and technologies, including 
+                Python, React, HTML, MySQL, JavaScript, and PHP. Throughout my academic career, I have created numerous projects using these skills. 
+                These projects have been instrumental in developing my technical proficiency and problem-solving abilities. For more information about 
+                my projects, please visit the <a href="projects.html">projects page</a>. In addition to my academic pursuits, I have gained valuable work 
+                experience at Stop & Shop, where I worked as a cashier and produce clerk. I also have hands-on experience working in my family's mechanic 
+                shop alongside my father, which has equipped me with practical skills and a strong work ethic. Beyond work and studies, I have been playing 
+                the guitar since I was 10 years old, which remains a cherished hobby of mine. If you’d like to connect to offer an internship position or 
+                to learn more about me, feel free to <a href="contact.html">reach out to me</a> or visit my 
+                <a href="https://www.linkedin.com/in/alp-buz-2913042b0/" target="_blank">LinkedIn</a> profile.
+            </p>
+        </div>
+
+        <div class="about-profile-box">
+            <img id="about-profile-pic" class="about-profile-pic" src="assets/images/Giraffe.jpg" alt="Profile Picture">
+        </div>
 
     </section>
 
@@ -123,7 +121,7 @@
             <div>(May 2019 - August 2019, May 2024 - August 2024)</div>
           </div>
                 
-          <img src="images/GodsWayAutoRepair.jpg" alt="Gods Way Auto Repair Logo">
+          <img src="assets/images/GodsWayAutoRepair.jpg" alt="Gods Way Auto Repair Logo">
               
           <div class="job-description">
             <p>
@@ -146,7 +144,7 @@
             <div>(December 2020 - August 2021)</div>
           </div>
               
-          <img src="images/StopandShopLogo.png" alt="Stop and Shop Logo">
+          <img src="assets/images/StopandShopLogo.png" alt="Stop and Shop Logo">
               
           <div class="job-description">
             <p>
@@ -169,7 +167,7 @@
             <div>(May 2022 - August 2022, May 2023 - August 2023)</div>
           </div>
                 
-          <img src="images/StopandShopLogo.png" alt="Stop and Shop Logo">
+          <img src="assets/images/StopandShopLogo.png" alt="Stop and Shop Logo">
               
           <div class="job-description">
             <p>
@@ -231,7 +229,7 @@
                 </ul>
             </div>
             <video width="600" height="500" controls>
-                <source src="videos/POS-Resturant.mp4" type="video/mp4">
+                <source src="assets/videos/POS-Resturant.mp4" type="video/mp4">
                 Video does not work for some reason?
             </video>
 
@@ -322,6 +320,7 @@
             <li><a href="https://github.com/AlpBuz" target="_blank">GitHub</a></li>
         </ul>
     </footer>
+    <script type="module" src="js/main.js"></script>
 </body>
 
 </html>

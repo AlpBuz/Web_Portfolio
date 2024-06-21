@@ -34,6 +34,28 @@ body {
     justify-content: space-between;
     align-items: center;
     z-index: 10; /* Ensure it is above other content */
+    transition: 0.7s;
+    border-bottom: 1px outset white;
+
+}
+
+.main-header-scrolled {
+    position: fixed;
+    background: transparent;
+    padding: 10px 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10; /* Ensure it is above other content */
+    background-color: black; /* Change this to the desired color */
+    color: white;
+    transition: 0.7s;
+
 }
 
 
@@ -72,8 +94,6 @@ body {
 .nav-list a:hover {
     color: #00abf0; /* Hover color */
 }
-
-
 
 
 
@@ -218,14 +238,51 @@ body {
     bottom: 90;
     width: 70vh;
     height: 80vh;
+    border: 1px solid black;
+    border-radius: 25px;
+    box-shadow: 0 0 10px 0 rgb(0, 0, 0);
 }
 
 
 /*---------------about section ------------------------*/
 
 
-.about-me{
+.about-me-section{
     background-color: #073452;
     padding: 5px 34px;
-    margin: 10px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
 }
+
+.about-header{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    left: 651px;
+    top: -303px;
+}
+
+#about-profile-pic{
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 25px;
+    box-shadow: 0 0 10px 0 rgb(0, 0, 0);
+    height: 60vh;
+    width: 60vh;
+    top: 1025px;
+    left: 190.35px;
+}
+
+.about-description-box{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    right: 25px;
+}
+
+
+
+    
+
